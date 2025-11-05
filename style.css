@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+:root {
+  --color-grey-900: #141414;
+  --color-grey-800: #1F1F1F;
+  --color-grey-700: #333333;
+  --color-green: #C4F82A;
+  --color-white: #FFFFFF;
+  --spacing-500: 4rem;
+  --spacing-300: 2.4rem;
+  --spacing-200: 1.6rem;
+  --spacing-150: 1.2rem;
+  --spacing-100: 0.8rem;
+  --spacing-50: 0.4rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Inter, sans-serif;
+  color: var(--color-white);
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+.btn {
+  max-width: 30.4rem;
+  width: 100%;
+  min-height: 4.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-100);
+  padding: var(--spacing-150);
+  border-radius: 8px;
+  background: var(--color-grey-700);
+  color: var(--color-white);
+  transition: 0.2s all;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: var(--color-green);
+  color: var(--color-grey-700);
+}
+
+.social-links-profile {
+  width: clamp(32.7rem, 87%, 38.4rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-300);
+  padding: var(--spacing-500);
+  margin: 5rem auto;
+  border-radius: 1.2rem;
+  background: var(--color-grey-800);
+  text-align: center;
+}
+
+.personal-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-avatar {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  margin-bottom: var(--spacing-300);
+}
+
+.title {
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 150%;
+  margin-bottom: var(--spacing-50);
+}
+
+.address {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 150%;
+  font-weight: 700;
+  margin-bottom: var(--spacing-300);
+  color: var(--color-green);
+  font-style: normal;
+}
+
+.occupation {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.social-links {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-200);
+}
+
+footer {
+  min-height: 6rem;
+  background-color: var(--color-grey-700);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.attribution {
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.attribution a {
+  color: #c2c0c0;
+}

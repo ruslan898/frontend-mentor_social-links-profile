@@ -1,0 +1,8 @@
+@use './base/variables' as *;
+@use './base/mixins';
+@use './base/base-styles';
+
+@use './ui/buttons.scss';
+
+@use './blocks/profile.scss';
+@use './blocks/footer.scss';

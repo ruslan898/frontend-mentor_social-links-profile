@@ -1,0 +1,22 @@
+@use '../base/variables.scss' as *;
+
+.btn {
+  max-width: 30.4rem;
+  width: 100%;
+  min-height: 4.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-100);
+  padding: var(--spacing-150);
+  border-radius: 8px;
+  background: var(--color-grey-700);
+  color: var(--color-white);
+  transition: 0.2s all;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: var(--color-green);
+  color: var(--color-grey-700);
+}
