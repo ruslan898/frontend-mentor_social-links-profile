@@ -28,8 +28,11 @@ html {
 body {
   position: relative;
   min-height: 100vh;
-  background-color: #000;
+  background-color: var(--color-grey-900);
   font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .btn {
