@@ -26,6 +26,9 @@ html {
 }
 
 body {
+  position: relative;
+  min-height: 100vh;
+  background-color: #000;
   font-size: 1.6rem;
 }
 
@@ -112,6 +115,9 @@ nav {
 }
 
 footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   min-height: 6rem;
   background-color: var(--color-grey-700);
   display: flex;
