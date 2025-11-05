@@ -1,5 +1,3 @@
-@use '../base/variables.scss' as *;
-
 .btn {
   max-width: 30.4rem;
   width: 100%;
@@ -9,7 +7,7 @@
   align-items: center;
   gap: var(--spacing-100);
   padding: var(--spacing-150);
-  border-radius: 8px;
+  border-radius: 0.8rem;
   background: var(--color-grey-700);
   color: var(--color-white);
   transition: 0.2s all;
